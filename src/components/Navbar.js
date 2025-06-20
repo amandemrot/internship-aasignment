@@ -10,8 +10,8 @@ function Navbar() {
                 <span>MyInternship</span>
             </div>
 
-            {/* Navigation right side */}
-            <div className="space-x-6 hidden sm:flex">
+            {/* Navigation Links — Now visible on mobile too ✅ */}
+            <div className="space-x-6 flex">
                 <a href="#hero" className="text-gray-700 hover:text-blue-600 font-medium transition">Home</a>
                 <a href="#products" className="text-gray-700 hover:text-blue-600 font-medium transition">Products</a>
                 <a href="#faq" className="text-gray-700 hover:text-blue-600 font-medium transition">FAQ</a>
